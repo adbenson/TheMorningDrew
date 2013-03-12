@@ -151,6 +151,7 @@ header h1{
 header h3{
 	align: right;
 	margin-left: 1em;
+	font-variant: small-caps;
 }
 
 #backdrop {
@@ -196,11 +197,6 @@ aside.copyright {
 	bottom: 0;
 	font-size: 0.6em;
 }
-
-
-
-
-
 
 
 /* ==========================================================================
