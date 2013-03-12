@@ -149,9 +149,8 @@ header h1{
 }
 
 header h3{
-	align: right;
-	margin-left: 1em;
-	font-variant: small-caps;
+	margin-left: 5em;
+	text-transform:uppercase;
 }
 
 #backdrop {
