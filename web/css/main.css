@@ -93,8 +93,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header {
+	font-family: 'IM Fell English', serif;
+	
+	-webkit-box-shadow: 0px 0px 21px rgba(255, 255, 255, 1);
+	-moz-box-shadow:    0px 0px 21px rgba(255, 255, 255, 1);
+	box-shadow:         0px 0px 21px rgba(255, 255, 255, 1);
+	
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	background-color: rgba(255, 255, 255, 0.5);
+	
+	/*Compensate for box-shadow extending off screen so corners aren't visible */
+	margin-left: -21px;
+	margin-right: -21px;
+	padding-left: 21px;
+	padding-right: 21px;
+}
 
+header h1{
+	font-style: italic;
+	font-size: 3em;
+	
+	margin-left: 3em;
+}
 
+header h3{
+	align: right;
+	margin-left: 1em;
+}
 
 
 
