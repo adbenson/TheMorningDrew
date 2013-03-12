@@ -36,6 +36,10 @@ $(document).ready(function() {
 		
 		$('#backdrop').css('background-size', bg_size);
 	});
+	
+	$('.attribution').click(function() {
+		$(this).find('div').slideToggle();
+	});
 
 });
 
