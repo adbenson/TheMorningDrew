@@ -136,6 +136,7 @@ header {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	
+	color: rgb(82, 0, 0);
 	background-color: rgba(255, 255, 255, 0.5);
 	
 	/*Compensate for box-shadow extending off screen so corners aren't visible */
