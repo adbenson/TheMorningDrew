@@ -171,8 +171,12 @@ header h3{
 	background-position:center;
 }
 
+aside.copyright,
 aside.attribution {
 	color: rgb(200, 200, 200);
+}
+
+aside.attribution {
 	position: fixed;
 	bottom: 0;
 	right: 0;
