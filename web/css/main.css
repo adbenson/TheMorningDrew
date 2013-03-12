@@ -140,8 +140,12 @@ header h3{
 
 
 
-
-
+aside.copyright {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-size: 0.6em;
+}
 
 
 
