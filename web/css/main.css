@@ -122,6 +122,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+	background-color: rgb(43, 36, 28);
+}
+   
 header {
 	font-family: 'IM Fell English', serif;
 	
@@ -157,8 +161,8 @@ header h3{
 	position: fixed;
 	z-index: -99;
 	top: 0;
-	left: 0;
-	right: 0;
+	left: 4em;
+	right: 4em;
 	bottom: 0;
 	background-color: gray;
 	background-image: url(../img/tautropfen3_720.jpg);
