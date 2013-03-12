@@ -169,6 +169,8 @@ header h3{
 	background-image: url(../img/tautropfen3_720.jpg);
 	background-repeat:no-repeat;
 	background-position:center;
+	/*hide until the image is loaded*/
+	display: none;
 }
 
 aside.copyright,

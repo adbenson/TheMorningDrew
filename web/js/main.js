@@ -3,14 +3,16 @@ var backdrop_ratio = null;
 
 backdrop_image.onload = function () {
 	backdrop_ratio = backdrop_image.width / backdrop_image.height;
+	$('#backdrop').show();
+	$(window).resize();
 };
 
 backdrop_image.src = 'img/tautropfen3_720.jpg';
 
 $(document).ready(function() {
 
-
 	$(window).resize(function() {
+		
 		var window_ratio = window.innerWidth / window.innerHeight;
 		
 		var bd_width = backdrop_image.width;
@@ -40,6 +42,6 @@ $(document).ready(function() {
 	$('.attribution').click(function() {
 		$(this).find('div').slideToggle();
 	});
-
+	
 });
 
